@@ -12,6 +12,7 @@ module.exports = {
     fontFamily: {
       poppins: ["var(--font-poppins)"],
       mulish: ["var(--font-mulish)"],
+      recoleta: ["var(--font-recoleta)"],
     },
     screens: {
       sm: "640px",
