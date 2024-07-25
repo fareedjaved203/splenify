@@ -1,4 +1,5 @@
 import Companies from "@/components/companies/Companies";
+import Footer from "@/components/footer/Footer";
 import Hero from "@/components/hero/Hero";
 import Navbar from "@/components/navbar/Navbar";
 import Process from "@/components/process/Process";
@@ -12,6 +13,7 @@ export default function Home() {
       <Companies />
       <Process />
       <Specialize />
+      <Footer />
     </main>
   );
 }

@@ -4,7 +4,7 @@ import { ContentWrapper } from "../layouts/ContentWrapper";
 
 const Companies = () => {
   return (
-    <ContentWrapper className={`flex justify-center items-center my-10`}>
+    <ContentWrapper className={`flex justify-center items-center mt-36`}>
       <div>
         <div></div>
       </div>

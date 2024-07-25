@@ -5,7 +5,7 @@ import Image from "next/image";
 const Process = () => {
   return (
     <ContentWrapper
-      className={`flex justify-center items-center my-10 flex-col`}
+      className={`flex justify-center items-center mt-36 flex-col`}
     >
       <div className="space-y-4">
         <p className="text-center text-lg font-normal font-poppins">
