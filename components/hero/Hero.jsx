@@ -16,20 +16,20 @@ const Hero = () => {
           className="h-[150px] w-[475px]"
         />
       </div>
-      <div>
-        <h1 className="font-recoleta text-[90px] font-normal">
+      <div className="mt-4 md:mt-8">
+        <h1 className="font-recoleta text-5xl md:text-7xl lg:text-[90px] font-normal text-center">
           Software{" "}
           <span className="bg-gradient-to-r from-[#F149FF] to-[#7165FF] text-transparent bg-clip-text">
             Solution
           </span>{" "}
           Partner
         </h1>
-        <p className="text-[17px] text-[#000000AD] text-center">
+        <p className="mt-4 md:mt-8 text-[17px] text-[#000000AD] text-center">
           Your trusted partners for all things digital. Let&rsquo;s transform
           your online presence.
         </p>
       </div>
-      <div className="flex space-x-4 mt-8">
+      <div className="md:mt-8 flex space-x-4 mt-4">
         <button className="w-[174px] h-[59px] text-[4F4F4F] text-base bg-gradient-to-r from-[#EFEFEF] to-[#E2E2E2] rounded-[20px]">
           Contact Us
         </button>
