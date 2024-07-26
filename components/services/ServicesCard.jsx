@@ -7,7 +7,11 @@ const ServicesCard = ({ title }) => {
       <div className="mx-6 mb-6 mt-12">
         <h1 className="font-poppins font-medium text-2xl">{title}</h1>
         <div className="mt-4 flex flex-wrap">
-          <Features title={"UX Audit"} imageSrc={"/service-audit.svg"} />
+          <Features
+            title={"UX Audit"}
+            imageSrc={"/service-audit.svg"}
+            color="#7165FF"
+          />
           <Features
             title={"Research & Strategy"}
             imageSrc={"/service-research.svg"}
