@@ -6,6 +6,7 @@ import Process from "@/components/process/Process";
 import Projects from "@/components/projects/Projects";
 import Services from "@/components/services/Services";
 import Specialize from "@/components/specialize/Specialize";
+import Testimonials from "@/components/testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Specialize />
       <Services />
       <Projects />
+      <Testimonials />
       <Footer />
     </main>
   );
