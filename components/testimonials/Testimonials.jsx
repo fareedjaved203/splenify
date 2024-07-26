@@ -10,7 +10,7 @@ const Testimonials = () => {
     >
       <div className="space-y-4">
         <p className="text-center text-lg font-normal">
-          Don't take our word for it!
+          Don&apos;t take our word for it!
         </p>
         <div className="flex space-x-4">
           <Image
