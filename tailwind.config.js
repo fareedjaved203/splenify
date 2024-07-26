@@ -13,6 +13,7 @@ module.exports = {
       poppins: ["var(--font-poppins)"],
       mulish: ["var(--font-mulish)"],
       recoleta: ["var(--font-recoleta)"],
+      roboto: ["var(--font-roboto)"],
     },
     screens: {
       sm: "640px",

@@ -17,7 +17,7 @@ const Hero = () => {
         />
       </div>
       <div className="mt-4 md:mt-8">
-        <h1 className="font-recoleta text-5xl md:text-7xl lg:text-[90px] font-normal text-center">
+        <h1 className="font-roboto italic font-black text-5xl md:text-7xl lg:text-[90px] text-center">
           Software{" "}
           <span className="bg-gradient-to-r from-[#F149FF] to-[#7165FF] text-transparent bg-clip-text">
             Solution
@@ -43,7 +43,7 @@ const Hero = () => {
           width={10}
           height={10}
           alt="gallery"
-          className="w-[1144px] h-[716px] cover"
+          className="w-[1154px] h-[727px] cover"
         />
       </div>
     </ContentWrapper>
