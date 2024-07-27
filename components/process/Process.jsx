@@ -11,7 +11,7 @@ const Process = () => {
         <p className="text-center text-lg font-normal font-poppins">
           How we do it?
         </p>
-        <div className="md:text-[40px] lg:text-[46px] font-roboto italic font-black text-center">
+        <div className="md:text-[40px] lg:text-[46px] font-recoleta font-black text-center">
           World-class apps on demand, with our{" "}
           <span className="text-[#DF56FE]">process!</span>
         </div>

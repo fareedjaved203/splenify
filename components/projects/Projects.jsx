@@ -18,7 +18,7 @@ const Projects = () => {
           <p className="text-center text-lg font-normal font-poppins">
             and we go beyond just visuals…{" "}
           </p>
-          <h1 className="md:text-[40px] lg:text-[46px] font-roboto italic font-black text-center">
+          <h1 className="md:text-[40px] lg:text-[46px] font-recoleta font-black text-center">
             See our latest projects
           </h1>
         </div>

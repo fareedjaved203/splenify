@@ -12,7 +12,7 @@ const Specialize = () => {
         <p className="text-center text-lg font-normal">
           What do we specialize in?
         </p>
-        <h1 className="md:text-[40px] lg:text-[46px] font-roboto italic font-black text-center">
+        <h1 className="md:text-[40px] lg:text-[46px] font-recoleta font-black text-center">
           Our partners hire us to{" "}
           <span className="text-[#7165FF]">design &amp; develop</span> their…
         </h1>

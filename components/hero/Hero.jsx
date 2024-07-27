@@ -17,7 +17,7 @@ const Hero = () => {
         />
       </div>
       <div className="mt-4 md:mt-8">
-        <h1 className="font-roboto italic font-black text-5xl md:text-7xl lg:text-[90px] text-center">
+        <h1 className="font-recoleta font-normal text-5xl md:text-7xl lg:text-[90px] text-center">
           Software{" "}
           <span className="bg-gradient-to-r from-[#F149FF] to-[#7165FF] text-transparent bg-clip-text">
             Solution

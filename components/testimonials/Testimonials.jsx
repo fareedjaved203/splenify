@@ -20,7 +20,7 @@ const Testimonials = () => {
             alt="leaf"
             className="w-[55px] h-[84px]"
           />
-          <h1 className="md:text-[40px] lg:text-[46px] font-roboto italic font-black text-center mt-2">
+          <h1 className="md:text-[40px] lg:text-[46px] font-recoleta font-black text-center mt-2">
             Hear it from our <span className="text-[#7165FF]">clients</span>
           </h1>
           <Image
