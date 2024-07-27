@@ -3,7 +3,7 @@ import React from "react";
 
 const ProjectCard = ({ title, description, imageSrc, height }) => {
   return (
-    <div className="w-full max-w-[541px]">
+    <div className="w-full md:max-w-[541px]">
       <Image
         src={imageSrc}
         width={10}

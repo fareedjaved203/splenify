@@ -5,7 +5,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <ContentWrapper
-      className={`flex justify-center items-center flex-col mt-12`}
+      className={`flex justify-center items-center flex-col mt-12 `}
     >
       <div>
         <Image
@@ -13,7 +13,7 @@ const Hero = () => {
           width={10}
           height={10}
           alt="header"
-          className="h-[150px] w-[475px]"
+          className="md:w-[440px] md:h-[115px] lg:h-[150px] lg:w-[475px]"
         />
       </div>
       <div className="mt-4 md:mt-8">
@@ -43,7 +43,7 @@ const Hero = () => {
           width={10}
           height={10}
           alt="gallery"
-          className="w-[1154px] h-[727px] cover"
+          className="w-full xl:w-[1154px] md:[400px] lg:h-[727px] cover"
         />
       </div>
     </ContentWrapper>

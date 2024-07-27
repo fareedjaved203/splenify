@@ -15,14 +15,16 @@ const Companies = () => {
     "/company-logo9.svg",
   ];
   return (
-    <ContentWrapper className={`flex justify-center items-center mt-[102px]`}>
+    <ContentWrapper
+      className={`flex justify-center items-center md:mt-10 lg:mt-[102px]`}
+    >
       <div>
         <Image
           src={"/company-1.svg"}
           width={10}
           height={10}
           alt="company"
-          className="w-[210px] h-[190px]"
+          className="md:w-[190px] md:h-[170px] lg:w-[210px] lg:h-[190px]"
         />
       </div>
       <div className="mt-10">
@@ -48,7 +50,7 @@ const Companies = () => {
           width={10}
           height={10}
           alt="company"
-          className="w-[210px] h-[190px]"
+          className="md:w-[190px] md:h-[170px] lg:w-[210px] lg:h-[190px]"
         />
       </div>
     </ContentWrapper>
