@@ -16,22 +16,32 @@ const Companies = () => {
   ];
   return (
     <ContentWrapper
-      className={`flex justify-center items-center md:mt-10 lg:mt-[102px]`}
+      className={`hidden lg:flex justify-center items-center md:mt-10 lg:mt-[102px]`}
     >
-      <div>
-        <Image
-          src={"/company-1.svg"}
-          width={10}
-          height={10}
-          alt="company"
-          className="md:w-[190px] md:h-[170px] lg:w-[210px] lg:h-[190px]"
-        />
+      <div className="flex flex-col space-y-6">
+        <div className="relative w-[150px] h-[70px] lg:w-[180px] lg:h-[85px] bg-white flex justify-end items-center flex-col font-poppins rounded-[24px] rotate-15 border border-[#0E131930] p-6">
+          <p className="font-medium text-[30px] lg:text-[36px] text-[#7266FF]">
+            300 +
+          </p>
+          <p className="font-normal text-sm lg:text-base text-[#909090] absolute bottom-3">
+            Happy Clients
+          </p>
+        </div>
+
+        <div className="relative w-[150px] h-[70px] lg:w-[180px] lg:h-[85px] bg-white flex justify-end items-center flex-col font-poppins rounded-[24px] -rotate-15 border border-[#0E131930] p-6">
+          <p className="font-medium text-[30px] lg:text-[36px] text-[#7266FF]">
+            40 +
+          </p>
+          <p className="font-normal text-sm lg:text-base text-[#909090] absolute bottom-3">
+            Skillful Talent
+          </p>
+        </div>
       </div>
-      <div className="mt-10">
-        <p className="font-poppins font-normal text-lg text-center mb-10">
+      <div className="mt-8">
+        <p className="font-poppins font-normal text-base md:text-lg text-center mb-10">
           We have worked with
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 opacity-[30%] gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 opacity-[30%] gap-6 xl:max-w-[775px] lg:mx-[55px] mx-auto">
           {imageSources.map((src, index) => (
             <Image
               key={index}
@@ -44,14 +54,24 @@ const Companies = () => {
           ))}
         </div>
       </div>
-      <div>
-        <Image
-          src={"/company-2.svg"}
-          width={10}
-          height={10}
-          alt="company"
-          className="md:w-[190px] md:h-[170px] lg:w-[210px] lg:h-[190px]"
-        />
+      <div className="flex flex-col space-y-6">
+        <div className="relative w-[150px] h-[70px] lg:w-[180px] lg:h-[85px] bg-white flex justify-end items-center flex-col font-poppins rounded-[24px] -rotate-15 border border-[#0E131930] p-6">
+          <p className="font-medium text-[30px] lg:text-[36px] text-[#7266FF]">
+            10 +
+          </p>
+          <p className="font-normal text-sm lg:text-base text-[#909090] absolute bottom-3">
+            Years on market
+          </p>
+        </div>
+
+        <div className="relative w-[150px] h-[70px] lg:w-[180px] lg:h-[85px] bg-white flex justify-end items-center flex-col font-poppins rounded-[24px] rotate-15 border border-[#0E131930] p-6">
+          <p className="font-medium text-[30px] lg:text-[36px] text-[#7266FF]">
+            80 +
+          </p>
+          <p className="font-normal text-sm lg:text-base text-[#909090] absolute bottom-3">
+            App built
+          </p>
+        </div>
       </div>
     </ContentWrapper>
   );

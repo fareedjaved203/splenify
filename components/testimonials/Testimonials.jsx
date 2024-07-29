@@ -6,21 +6,21 @@ import TestimonialCard from "./TestimonialCard";
 const Testimonials = () => {
   return (
     <ContentWrapper
-      className={`flex justify-center items-center flex-col mt-36`}
+      className={`flex justify-center items-center flex-col mt-36 w-full`}
     >
-      <div className="space-y-4">
-        <p className="text-center text-lg font-normal">
+      <div className="space-y-4 w-full">
+        <p className="text-center text-base md:text-lg font-normal">
           Don&apos;t take our word for it!
         </p>
-        <div className="flex space-x-4">
+        <div className="flex space-x-2 md:space-x-4 w-full justify-center items-center">
           <Image
             src={"/left-leaf.svg"}
             width={10}
             height={10}
             alt="leaf"
-            className="w-[55px] h-[84px]"
+            className="w-[40px] h-[70px] md:w-[55px] md:h-[84px]"
           />
-          <h1 className="md:text-[40px] lg:text-[46px] font-recoleta font-black text-center mt-2">
+          <h1 className="text-[30px] md:text-[40px] lg:text-[46px] font-recoleta font-black text-center mt-2">
             Hear it from our <span className="text-[#7165FF]">clients</span>
           </h1>
           <Image
@@ -28,11 +28,11 @@ const Testimonials = () => {
             width={10}
             height={10}
             alt="leaf"
-            className="w-[55px] h-[84px]"
+            className="w-[40px] h-[70px] md:w-[55px] md:h-[84px]"
           />
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
         <div className="flex flex-col space-y-10">
           <TestimonialCard
             logo={"/testimonial-logo1.svg"}

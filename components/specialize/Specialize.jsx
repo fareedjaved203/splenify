@@ -6,13 +6,13 @@ import Card from "./Card";
 const Specialize = () => {
   return (
     <ContentWrapper
-      className={`flex justify-center items-center md:mt-20 lg:mt-36 flex-col font-poppins`}
+      className={`flex justify-center items-center mt-10 md:mt-20 lg:mt-36 flex-col font-poppins`}
     >
       <div className="space-y-4">
-        <p className="text-center text-lg font-normal">
+        <p className="text-center text-base md:text-lg font-normal">
           What do we specialize in?
         </p>
-        <h1 className="md:text-[40px] lg:text-[46px] font-recoleta font-black text-center">
+        <h1 className="text-[30px] md:text-[40px] lg:text-[46px] font-recoleta font-black text-center">
           Our partners hire us to{" "}
           <span className="text-[#7165FF]">design &amp; develop</span> their…
         </h1>

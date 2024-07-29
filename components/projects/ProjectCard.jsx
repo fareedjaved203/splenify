@@ -13,14 +13,14 @@ const ProjectCard = ({ title, description, imageSrc, height }) => {
       />
       <div className="flex w-full justify-between items-start mt-[21px]">
         <div>
-          <h1 className="font-poppins font-normal text-lg text-[#161C2D]">
+          <h1 className="font-poppins font-normal text-sm lg:text-lg text-[#161C2D]">
             {title}
           </h1>
-          <h2 className="font-poppins font-semibold text-[#161C2D] text-[26px]">
+          <h2 className="font-poppins font-semibold text-[#161C2D] text-lg lg:text-[26px]">
             {description}
           </h2>
         </div>
-        <button className="w-[185.34px] h-[65.85px] rounded-[41px] bg-[#F3F3F9] text-nowrap gap-2 px-10 py-5 font-poppins font-normal text-base text-center">
+        <button className="py-3 px-5 lg:w-[185.34px] lg:h-[65.85px] rounded-[41px] bg-[#F3F3F9] text-nowrap gap-2 lg:px-10 lg:py-5 font-poppins font-normal text-sm lg:text-base text-center">
           View Project
         </button>
       </div>

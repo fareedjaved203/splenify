@@ -6,7 +6,7 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   return (
     <>
-      <div className="flex justify-between items-center w-full md:mt-20 lg:mt-36">
+      <div className="flex justify-between items-center w-full mt-10 md:mt-20 lg:mt-36">
         <Image
           src={"/right-arrow.svg"}
           width={10}
@@ -31,7 +31,7 @@ const Projects = () => {
         />
       </div>
       <ContentWrapper className={"mt-[84px]"}>
-        <div className="mx-10 flex justify-center items-center flex-col">
+        <div className="xl:mx-10 flex justify-center items-center flex-col">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[76px]">
             <div className="flex flex-col space-y-[85px]">
               <ProjectCard
