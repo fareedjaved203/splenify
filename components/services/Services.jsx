@@ -11,7 +11,7 @@ const Services = () => {
         <p className="text-center text-base md:text-lg font-normal">
           and we go beyond just visuals…
         </p>
-        <h1 className="text-[30px] md:text-[40px] lg:text-[46px] font-recoleta italic font-black text-center">
+        <h1 className="text-[30px] md:text-[40px] lg:text-[46px] font-recoleta font-black text-center">
           Our full scope of <span className="text-[#F149FF]">design</span> &{" "}
           <span className="text-[#7165FF]">development</span> services include
         </h1>
