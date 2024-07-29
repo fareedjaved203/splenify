@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import ThemeSwitch from "../ThemeSwitch";
 
 const HamburgerMenu = () => {
   const [isSidebarVisible, setSidebarVisibility] = useState(false);
@@ -15,7 +16,9 @@ const HamburgerMenu = () => {
     setActiveLink(link);
   };
   return (
-    <header className={`max-[900px]:block hidden h-[105px] px-4 bg-white`}>
+    <header
+      className={`max-[900px]:block hidden h-[105px] px-4 bg-white dark:bg-slate-800`}
+    >
       <div className="flex justify-center items-center w-full h-full">
         <div className="flex flex-row justify-between items-center w-full h-full">
           <Link href={"/"}>
@@ -27,7 +30,7 @@ const HamburgerMenu = () => {
                 alt="logo"
                 className="w-[29.25px] h-[37.71px]"
               />
-              <p>Splenify</p>
+              <p className="dark:text-slate-300">Splenify</p>
             </div>
           </Link>
 
@@ -62,7 +65,7 @@ const HamburgerMenu = () => {
                 boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
               }}
             >
-              <div className="flex flex-col w-64 bg-white h-full">
+              <div className="flex flex-col w-64 bg-white dark:bg-slate-800 h-full">
                 <div className="p-3 w-full flex justify-end">
                   <button onClick={() => setSidebarVisibility(false)}>
                     <svg
@@ -114,11 +117,16 @@ const HamburgerMenu = () => {
                     </Link>
                   </nav>
 
-                  <Link href={"/#contact"}>
-                    <button className="font-poppins border border-[#00FAFE] font-semibold text-sm text-[#878787] rounded-[48px] flex justify-center items-center text-nowrap h-[50px] w-[171.22px]">
-                      Schedule a call
-                    </button>
-                  </Link>
+                  <div className="flex justify-center items-center flex-col space-y-3">
+                    <div>
+                      <ThemeSwitch />
+                    </div>
+                    <Link href={"/#contact"}>
+                      <button className="font-poppins border border-[#00FAFE] font-semibold text-sm text-[#878787] dark:text-slate-300 rounded-[48px] flex justify-center items-center text-nowrap h-[50px] w-[171.22px]">
+                        Schedule a call
+                      </button>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>

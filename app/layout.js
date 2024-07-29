@@ -2,6 +2,7 @@ import { Inter, Mulish, Poppins, Roboto } from "next/font/google";
 import localFont from "next/font/local";
 
 import "./globals.css";
+import { Providers } from "./providers";
 const recoleta = localFont({
   src: [
     {
@@ -42,8 +43,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${inter.className} ${mulish.variable} ${poppins.variable} ${recoleta.variable} ${roboto.variable}`}
+        suppressHydrationWarning
       >
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

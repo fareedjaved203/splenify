@@ -20,32 +20,32 @@ const Specialize = () => {
       <div className="mt-[55px] grid grid-cols-1 md:grid-cols-2 gap-[44px] ">
         <Card
           title={"Mobile & Web Apps"}
-          description={"We&rsquo;ll research your product and start building."}
+          description={"We'll research your product and start building."}
           imageSrc={"/specialize-img1.png"}
         />
         <Card
           title={"Mobile & Web Apps"}
-          description={"We&rsquo;ll research your product and start building."}
+          description={"We'll research your product and start building."}
           imageSrc={"/specialize-img2.png"}
         />
         <Card
           title={"Mobile & Web Apps"}
-          description={"We&rsquo;ll research your product and start building."}
+          description={"We'll research your product and start building."}
           imageSrc={"/specialize-img1.png"}
         />
         <Card
           title={"Mobile & Web Apps"}
-          description={"We&rsquo;ll research your product and start building."}
+          description={"We'll research your product and start building."}
           imageSrc={"/specialize-img2.png"}
         />
         <Card
           title={"Mobile & Web Apps"}
-          description={"We&rsquo;ll research your product and start building."}
+          description={"We'll research your product and start building."}
           imageSrc={"/specialize-img1.png"}
         />
         <Card
           title={"Mobile & Web Apps"}
-          description={"We&rsquo;ll research your product and start building."}
+          description={"We'll research your product and start building."}
           imageSrc={"/specialize-img2.png"}
         />
       </div>

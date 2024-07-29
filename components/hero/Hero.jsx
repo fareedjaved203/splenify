@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="relative">
         <div className="flex space-x-2 sm:space-x-4">
           <div className="flex flex-col justify-center items-center">
-            <div className="w-[80px] h-[30px] sm:w-[108px] sm:h-[43px] font-medium text-[14.58px] flex justify-center items-center bg-white text-[#7268FA] border border-[#0E131930] rounded-[10px] gap-[11px] -rotate-15">
+            <div className="w-[80px] h-[30px] sm:w-[108px] sm:h-[43px] font-medium text-[14.58px] flex justify-center items-center bg-white dark:bg-slate-800 text-[#7268FA] border border-[#0E131930] rounded-[10px] gap-[11px] -rotate-15">
               App Dev
             </div>
             <div>
@@ -23,14 +23,14 @@ const Hero = () => {
               />
             </div>
           </div>
-          <div className="w-[80px] h-[30px] sm:w-[108px] sm:h-[43px] font-medium text-[14.58px] flex justify-center items-center bg-white text-[#7268FA] border border-[#0E131930] rounded-[10px] gap-[11px] rotate-15">
+          <div className="w-[80px] h-[30px] sm:w-[108px] sm:h-[43px] font-medium text-[14.58px] flex justify-center items-center bg-white dark:bg-slate-800 text-[#7268FA] border border-[#0E131930] rounded-[10px] gap-[11px] rotate-15">
             UI UX
           </div>
-          <div className="w-[80px] h-[30px] sm:w-[108px] sm:h-[43px] font-medium text-[14.58px] flex justify-center items-center bg-white text-[#7268FA] border border-[#0E131930] rounded-[10px] gap-[11px] -rotate-15">
+          <div className="w-[80px] h-[30px] sm:w-[108px] sm:h-[43px] font-medium text-[14.58px] flex justify-center items-center bg-white dark:bg-slate-800 text-[#7268FA] border border-[#0E131930] rounded-[10px] gap-[11px] -rotate-15">
             Design
           </div>
           <div className="flex flex-col justify-center items-center">
-            <div className="w-[80px] h-[30px] sm:w-[108px] sm:h-[43px] font-medium text-[14.58px] flex justify-center items-center bg-white text-[#7268FA] border border-[#0E131930] rounded-[10px] gap-[11px] rotate-15">
+            <div className="w-[80px] h-[30px] sm:w-[108px] sm:h-[43px] font-medium text-[14.58px] flex justify-center items-center bg-white dark:bg-slate-800 text-[#7268FA] border border-[#0E131930] rounded-[10px] gap-[11px] rotate-15">
               Writing
             </div>
             <div>
@@ -56,13 +56,13 @@ const Hero = () => {
           </span>{" "}
           Partner
         </h1>
-        <p className="mt-4 md:mt-8 text-sm sm:text-[17px] text-[#000000AD] text-center">
+        <p className="mt-4 md:mt-8 text-sm sm:text-[17px] text-[#000000AD] dark:text-white text-center">
           Your trusted partners for all things digital. Let&rsquo;s transform
           your online presence.
         </p>
       </div>
       <div className="md:mt-8 flex space-x-2 sm:space-x-4 mt-4">
-        <button className="w-[140px] h-[50px] sm:w-[174px] sm:h-[59px] text-[4F4F4F] text-sm sm:text-base bg-gradient-to-r from-[#EFEFEF] to-[#E2E2E2] rounded-[20px]">
+        <button className="w-[140px] h-[50px] sm:w-[174px] sm:h-[59px] text-[4F4F4F] text-sm sm:text-base light:bg-gradient-to-r from-[#EFEFEF] to-[#E2E2E2] rounded-[20px] dark:bg-slate-800 dark:text-white">
           Contact Us
         </button>
         <button className="w-[140px] h-[50px] sm:w-[174px] sm:h-[59px] text-[4F4F4F] text-sm sm:text-base border-2 border-[#4F4F4F] rounded-[20px]">
