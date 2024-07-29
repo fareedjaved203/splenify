@@ -71,9 +71,9 @@ const Hero = () => {
       </div>
       <div className="mt-10">
         <Image
-          src={"/header-gallery.svg"}
-          width={10}
-          height={10}
+          src={"/hero-gallery.png"}
+          width={1200}
+          height={1200}
           alt="gallery"
           className="w-full xl:w-[1154px] h-auto"
         />

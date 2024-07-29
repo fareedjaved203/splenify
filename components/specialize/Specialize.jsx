@@ -21,32 +21,32 @@ const Specialize = () => {
         <Card
           title={"Mobile & Web Apps"}
           description={"We&rsquo;ll research your product and start building."}
-          imageSrc={"/specialize1.svg"}
+          imageSrc={"/specialize-img1.png"}
         />
         <Card
           title={"Mobile & Web Apps"}
           description={"We&rsquo;ll research your product and start building."}
-          imageSrc={"/specialize1.svg"}
+          imageSrc={"/specialize-img2.png"}
         />
         <Card
           title={"Mobile & Web Apps"}
           description={"We&rsquo;ll research your product and start building."}
-          imageSrc={"/specialize1.svg"}
+          imageSrc={"/specialize-img1.png"}
         />
         <Card
           title={"Mobile & Web Apps"}
           description={"We&rsquo;ll research your product and start building."}
-          imageSrc={"/specialize1.svg"}
+          imageSrc={"/specialize-img2.png"}
         />
         <Card
           title={"Mobile & Web Apps"}
           description={"We&rsquo;ll research your product and start building."}
-          imageSrc={"/specialize1.svg"}
+          imageSrc={"/specialize-img1.png"}
         />
         <Card
           title={"Mobile & Web Apps"}
           description={"We&rsquo;ll research your product and start building."}
-          imageSrc={"/specialize1.svg"}
+          imageSrc={"/specialize-img2.png"}
         />
       </div>
     </ContentWrapper>

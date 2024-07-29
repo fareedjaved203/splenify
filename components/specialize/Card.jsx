@@ -15,10 +15,10 @@ const Card = ({ title, description, imageSrc }) => {
       <Image
         src={imageSrc}
         alt="img"
-        width={10}
-        height={10}
+        width={1000}
+        height={1000}
         objectFit="cover"
-        className="w-full max-w-full h-auto flex-1"
+        className="w-full xl:max-w-[265px] h-[153px] flex-1"
       />
     </div>
   );
