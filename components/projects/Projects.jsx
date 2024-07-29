@@ -6,29 +6,37 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   return (
     <>
-      <div className="flex justify-between items-center w-full mt-10 md:mt-20 lg:mt-36">
-        <Image
-          src={"/right-arrow.svg"}
-          width={10}
-          height={10}
-          alt="arrow"
-          className="lg:w-[360px] lg:h-[85px] xl:w-[400px] xl:h-[90px] 2xl:w-[460px] 2xl:h-[106.32px]"
-        />
-        <div className="space-y-4 mt-12">
-          <p className="text-center text-lg font-normal font-poppins">
-            and we go beyond just visuals…{" "}
-          </p>
-          <h1 className="md:text-[40px] lg:text-[46px] font-recoleta font-black text-center">
-            See our latest projects
-          </h1>
+      <div className="flex justify-between items-center w-full mt-10 md:mt-20 lg:mt-36 ">
+        <div className="w-full hidden lg:block">
+          <Image
+            src={"/right-arrow.svg"}
+            layout="responsive"
+            width={10}
+            height={10}
+            alt="arrow"
+            className="w-full h-[80px]"
+          />
         </div>
-        <Image
-          src={"/left-arrow.svg"}
-          width={10}
-          height={10}
-          alt="arrow"
-          className="lg:w-[360px] lg:h-[85px] xl:w-[400px] xl:h-[90px] 2xl:w-[460px] 2xl:h-[106.32px]"
-        />
+        <div className="flex flex-col justify-center items-center w-full">
+          <div className="space-y-4 mt-12 whitespace-nowrap w-full max-w-[500px]">
+            <p className="text-center text-base md:text-lg font-normal font-poppins w-full">
+              and we go beyond just visuals…{" "}
+            </p>
+            <h1 className="text-[30px] md:text-[40px] lg:text-[46px] font-recoleta font-black w-full text-center">
+              See our latest projects
+            </h1>
+          </div>
+        </div>
+        <div className="w-full hidden lg:block">
+          <Image
+            src={"/left-arrow.svg"}
+            layout="responsive"
+            width={10}
+            height={10}
+            alt="arrow"
+            className="w-full h-[80px]"
+          />
+        </div>
       </div>
       <ContentWrapper className={"mt-[84px]"}>
         <div className="xl:mx-10 flex justify-center items-center flex-col">

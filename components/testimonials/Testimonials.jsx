@@ -12,7 +12,7 @@ const Testimonials = () => {
         <p className="text-center text-base md:text-lg font-normal">
           Don&apos;t take our word for it!
         </p>
-        <div className="flex space-x-2 md:space-x-4 w-full justify-center items-center">
+        <div className="flex md:space-x-4 w-full justify-center items-center whitespace-nowrap">
           <Image
             src={"/left-leaf.svg"}
             width={10}
@@ -20,7 +20,7 @@ const Testimonials = () => {
             alt="leaf"
             className="w-[40px] h-[70px] md:w-[55px] md:h-[84px]"
           />
-          <h1 className="text-[30px] md:text-[40px] lg:text-[46px] font-recoleta font-black text-center mt-2">
+          <h1 className="text-[27px] md:text-[40px] lg:text-[46px] font-recoleta font-black text-center mt-2">
             Hear it from our <span className="text-[#7165FF]">clients</span>
           </h1>
           <Image
