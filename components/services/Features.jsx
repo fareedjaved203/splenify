@@ -5,11 +5,18 @@ const Features = ({ title, imageSrc, color = "#4E758D" }) => {
   return (
     <div className="mr-2 mb-2 flex justify-center items-center space-x-[4.8px] bg-white dark:bg-slate-900 rounded-[32px] h-[34px] py-[5px] px-[10px]">
       <Image
-        src={imageSrc}
+        src={`${imageSrc}.svg`}
         width={10}
         height={10}
         alt="service-feature"
-        className="w-[19.2px] h-[19.2px]"
+        className="w-[19.2px] h-[19.2px] dark:hidden block"
+      />
+      <Image
+        src={`${imageSrc}1.svg`}
+        width={10}
+        height={10}
+        alt="service-feature"
+        className="w-[19.2px] h-[19.2px] dark:block hidden"
       />
       <p className={`font-normal text-sm text-[${color}] dark:text-slate-300`}>
         {title}

@@ -18,7 +18,14 @@ const Testimonials = () => {
             width={10}
             height={10}
             alt="leaf"
-            className="w-[40px] h-[70px] md:w-[55px] md:h-[84px]"
+            className="w-[40px] h-[70px] md:w-[55px] md:h-[84px] dark:hidden block"
+          />
+          <Image
+            src={"/left-leaf-darkmode.svg"}
+            width={10}
+            height={10}
+            alt="leaf"
+            className="w-[30px] h-[60px] md:w-[45px] md:h-[74px] dark:block hidden"
           />
           <h1 className="text-[27px] md:text-[40px] lg:text-[46px] font-recoleta font-black text-center mt-2">
             Hear it from our <span className="text-[#7165FF]">clients</span>
@@ -28,7 +35,14 @@ const Testimonials = () => {
             width={10}
             height={10}
             alt="leaf"
-            className="w-[40px] h-[70px] md:w-[55px] md:h-[84px]"
+            className="w-[40px] h-[70px] md:w-[55px] md:h-[84px] dark:hidden block"
+          />
+          <Image
+            src={"/right-leaf-darkmode.svg"}
+            width={10}
+            height={10}
+            alt="leaf"
+            className="w-[30px] h-[60px] md:w-[45px] md:h-[74px] dark:block hidden"
           />
         </div>
       </div>
