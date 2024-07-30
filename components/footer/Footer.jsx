@@ -5,9 +5,9 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="w-full py-4 mt-36 bg-white dark:bg-slate-800">
-      <div className="container px-6 md:px-20 pt-12 pb-2 mx-auto flex flex-col sm:flex-row justify-between">
+      <div className="container px-6 md:px-20 pt-12 pb-2 mx-auto flex flex-col md:flex-row justify-between">
         <div
-          className="font-mulish text-black dark:text-slate-200  flex-1 mb-4 sm:mb-0"
+          className="font-mulish text-black dark:text-slate-200  flex-1 mb-4 md:mb-0"
           style={{
             fontSize: "32px",
             letterSpacing: "-1.2px",

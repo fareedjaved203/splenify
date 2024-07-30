@@ -10,7 +10,7 @@ const TestimonialCard = ({
   role,
 }) => {
   return (
-    <div className="bg-white dark:bg-slate-800 shadow-2xl dark:shadow-none rounded-[16px] gap-4 p-6 border-[3px] border-white dark:border-slate-800 space-y-4">
+    <div className="bg-white w-full dark:bg-slate-800 shadow-2xl dark:shadow-none rounded-[16px] gap-4 p-6 border-[3px] border-white dark:border-slate-800 space-y-4">
       <Image
         src={logo}
         width={10}
@@ -19,13 +19,16 @@ const TestimonialCard = ({
         className="w-[86px] h-[28px]"
       />
       {userImage && (
-        <Image
-          src={userImage}
-          width={10}
-          height={10}
-          alt="review-img"
-          className="w-[350px] h-[239px] rounded-[16px]"
-        />
+        <div className="w-full">
+          <Image
+            src={userImage}
+            layout="responsive"
+            width={10}
+            height={10}
+            alt="review-img"
+            className="w-full md:w-[350px] md:h-[239px] rounded-[16px]"
+          />
+        </div>
       )}
       <h1 className="font-roboto font-normal text-base dark:text-slate-400">
         <p dangerouslySetInnerHTML={{ __html: review }} />

@@ -40,8 +40,8 @@ const Projects = () => {
       </div>
       <ContentWrapper className={"mt-[84px]"}>
         <div className="xl:mx-10 flex justify-center items-center flex-col">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-[76px]">
-            <div className="flex flex-col space-y-[85px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] sm:gap-[76px]">
+            <div className="flex flex-col space-y-[40px] sm:space-y-[85px]">
               <ProjectCard
                 title={"Mobile Application"}
                 description={"Aura IOS | Android"}
@@ -55,7 +55,7 @@ const Projects = () => {
                 height={"374.58px"}
               />
             </div>
-            <div className="flex flex-col space-y-[89px]">
+            <div className="flex flex-col space-y-[40px] sm:space-y-[89px]">
               <ProjectCard
                 title={"Video Animation"}
                 description={"AB.S Snack Animation"}

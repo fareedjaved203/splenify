@@ -6,7 +6,7 @@ import TestimonialCard from "./TestimonialCard";
 const Testimonials = () => {
   return (
     <ContentWrapper
-      className={`flex justify-center items-center flex-col mt-36 w-full`}
+      className={`flex justify-center items-center flex-col mt-28 w-full`}
     >
       <div className="space-y-4 w-full">
         <p className="text-center text-base md:text-lg font-normal">
