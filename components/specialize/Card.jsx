@@ -14,14 +14,16 @@ const Card = ({ title, description, imageSrc }) => {
           </h4>
         </div>
       </div>
-      <Image
-        src={imageSrc}
-        alt="img"
-        width={1000}
-        height={1000}
-        objectFit="cover"
-        className="w-full xl:max-w-[265px] h-[153px] flex-1"
-      />
+      <div>
+        <Image
+          src={imageSrc}
+          alt="img"
+          width={1000}
+          height={1000}
+          objectFit="cover"
+          className="w-full h-auto xl:max-w-[265px] sm:h-[153px]"
+        />
+      </div>
     </div>
   );
 };
