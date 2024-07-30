@@ -24,7 +24,7 @@ const Navbar = () => {
           <nav className="font-poppins font-semibold w-full max-w-[418px] md:mx-auto flex flex-wrap items-center justify-between text-base hover:cursor-pointer">
             <Link
               href="/"
-              className="relative inline-block group font-medium text-[#878787] hover:text-[#262626] dark:text-slate-300 dark:hover:text-slate-300 active:text-[#262626] text-base hover:font-semibold"
+              className="relative inline-block group font-medium text-[#878787] hover:text-[#262626] dark:hover:text-slate-200 dark:text-slate-300 active:text-[#262626] text-base hover:font-semibold"
             >
               Home
               <span className="absolute bottom-0 left-0 w-full h-[2.31px] bg-[#00FAFE] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-450 ease-in-out"></span>
@@ -32,7 +32,7 @@ const Navbar = () => {
 
             <Link
               href="/work"
-              className="relative inline-block group font-medium text-base hover:font-semibold text-[#878787] hover:text-[#262626] dark:hover:text-slate-300 active:text-[#262626]"
+              className="relative inline-block group font-medium text-base hover:font-semibold text-[#878787] hover:text-[#262626] dark:hover:text-slate-200 dark:text-slate-300 active:text-[#262626]"
             >
               Projects
               <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#00FAFE] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-450 ease-in-out"></span>
@@ -40,7 +40,7 @@ const Navbar = () => {
 
             <Link
               href="/#feature"
-              className="relative inline-block group font-medium text-base hover:font-semibold text-[#878787] hover:text-[#262626] dark:hover:text-slate-300 active:text-[#262626]"
+              className="relative inline-block group font-medium text-base hover:font-semibold text-[#878787] hover:text-[#262626] dark:hover:text-slate-200 dark:text-slate-300 active:text-[#262626]"
             >
               About
               <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#00FAFE] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-450 ease-in-out"></span>
@@ -48,7 +48,7 @@ const Navbar = () => {
 
             <Link
               href="/#about"
-              className="relative inline-block group font-medium text-base hover:font-semibold text-[#878787] hover:text-[#262626] dark:hover:text-slate-300 active:text-[#262626]"
+              className="relative inline-block group font-medium text-base hover:font-semibold text-[#878787] hover:text-[#262626] dark:hover:text-slate-200 dark:text-slate-300 active:text-[#262626]"
             >
               Contact
               <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#00FAFE] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-450 ease-in-out"></span>

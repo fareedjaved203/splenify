@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -35,7 +36,18 @@ const Footer = () => {
 
       <div class="container px-6 md:px-20 py-24 md:mx-auto flex justify-center items-center md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div class="w-full md:w-64 flex-shrink-0 md:mx-0 text-center md:text-left">
-          <Image src={"/logo.svg"} width={120} height={120} alt="logo" />
+          <Link href={"/"}>
+            <div className="font-mulish font-extrabold text-2xl gap-3 text-[#2F2F2F] cursor-pointer flex justify-start items-center">
+              <Image
+                src={"/logo.svg"}
+                width={10}
+                height={10}
+                alt="logo"
+                className="w-[29.25px] h-[37.71px]"
+              />
+              <p className="dark:text-slate-300">Splenify</p>
+            </div>
+          </Link>
           <p
             class="font-mulish mt-4 text-black dark:text-slate-200 text-opacity"
             style={{ fontSize: "15px", fontWeight: "400" }}
