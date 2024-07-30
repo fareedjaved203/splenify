@@ -69,7 +69,7 @@ const Hero = () => {
           Book Meeting
         </button>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 w-full">
         <Image
           src={"/hero-gallery.png"}
           width={1200}

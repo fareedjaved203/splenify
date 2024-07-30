@@ -11,7 +11,7 @@ const Features = ({ title, imageSrc, color = "#4E758D" }) => {
         alt="service-feature"
         className="w-[19.2px] h-[19.2px]"
       />
-      <p className={`font-normal text-sm text-[${color}] dark:text-slate-400`}>
+      <p className={`font-normal text-sm text-[${color}] dark:text-slate-300`}>
         {title}
       </p>
     </div>
