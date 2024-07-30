@@ -1,17 +1,19 @@
 import React from "react";
 import Image from "next/image";
-const Step = ({ title, imageSrc, height }) => {
+const Step = ({ title, imageSrc, height, imageWidth, imageHeight }) => {
   return (
     <div className={`flex flex-col justify-end items-center`}>
-      <div className="w-full relative">
+      <div className="w-full relative flex justify-center items-center">
         <Image
           src={imageSrc}
           width={50}
           height={50}
           alt="phone"
-          className="w-[68px] h-[68px] absolute -bottom-4 left-12"
+          style={{ width: imageWidth, height: imageHeight }}
+          className={`absolute -bottom-4`}
         />
       </div>
+
       <div
         style={{ height: `${height}px` }}
         className="bg-[#F3F3F9] dark:bg-slate-800 w-[165px] rounded-[20px] flex justify-center items-start p-2"

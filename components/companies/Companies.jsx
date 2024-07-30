@@ -12,7 +12,6 @@ const Companies = () => {
     "/company-logo6.svg",
     "/company-logo7.svg",
     "/company-logo8.svg",
-    "/company-logo9.svg",
   ];
   return (
     <ContentWrapper
@@ -41,7 +40,7 @@ const Companies = () => {
         <p className="font-poppins font-normal text-base md:text-lg text-center mb-10">
           We have worked with
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 opacity-[30%] gap-6 xl:max-w-[775px] lg:mx-[55px] mx-auto">
+        <div className="flex justify-center items-center flex-wrap opacity-[30%] gap-6 xl:max-w-[775px] lg:mx-[55px] mx-auto">
           {imageSources.map((src, index) => (
             <Image
               key={index}
